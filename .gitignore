@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# 依赖与渲染产物
+node_modules/
+renders/
+out/
+_work/
+
+# 视频与录屏原片（tools/samples 里的 pptx 不受影响）
+*.mp4
+*.mov
+*.m4v
+*.webm
+
+# 使用者自己的 deck 与私有资产：在系列根目录里制作时不要误提交
+D[0-9][0-9]_*/
+00_系列测试/
+01_公共资产/
